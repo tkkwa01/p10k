@@ -384,7 +384,7 @@
     if (( $1 )); then
       # Styling for up-to-date Git status.
       local       meta='%246F'  # grey foreground
-      local      clean='%124F'   # green foreground
+      local      clean='%66F'
       #上のやつのdefaultは76
       local   modified='%178F'  # yellow foreground
       local  untracked='%39F'   # blue foreground
@@ -501,7 +501,7 @@
   typeset -g POWERLEVEL9K_VCS_{STAGED,UNSTAGED,UNTRACKED,CONFLICTED,COMMITS_AHEAD,COMMITS_BEHIND}_MAX_NUM=-1
 
   # Icon color.
-  typeset -g POWERLEVEL9K_VCS_VISUAL_IDENTIFIER_COLOR=124
+  typeset -g POWERLEVEL9K_VCS_VISUAL_IDENTIFIER_COLOR=66
   #上のやつのdefaultは76
   typeset -g POWERLEVEL9K_VCS_LOADING_VISUAL_IDENTIFIER_COLOR=244
   # Custom icon.
